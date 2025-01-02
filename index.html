@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Alexandre Mione</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <span>Alexandre MIONE</span>
+            </div>
+            <div class="links">
+                <div class="link"><a href="#">Menu</a></div>
+                <div class="link"><a href="#">A propos</a></div>
+                <div class="link"><a href="#">Compétences</a></div>
+                <div class="link"><a href="#">Projets</a></div>
+                <div class="link"><a href="#">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Menu</a>
+                <a href="#">A propos</a>
+                <a href="#">Compétences</a>
+                <a href="#">Projets</a>
+                <a href="#">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="image">
+                <img src="images/alexandre.jpg" alt="Alexandre Mione">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left">
+                    Bonjour, je suis
+                    <span>Alexandre Mione</span>
+                </h1>
+                <div class="typewriter">
+                    Je suis un
+                    <span class="typewriter-text"></span>
+                    <label for=""></label>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis sunt nostrum, doloribus rem animi laborum, tenetur dolores eius perspiciatis cumque reiciendis itaque et molestias quam eligendi incidunt quasi ea illum.</p>
+                <div class="social-links">
+                    <a href="https://github.com/MaxenMsf">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://gitlab.univ-artois.fr/alexandre_mione">
+                        <i class="fa-brands fa-gitlab"></i>
+                    <a href="https://www.linkedin.com/in/alexandre-mione-526979180/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+                <div class="btn">
+                    <button>Contactez-moi</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title"><span>A Propos</span></div>
+            <div class="left">
+                <img src="images/alexandre.jpg" alt="Alexandre MIONE">
+            </div>
+            <div class="right">
+                <div class="topic">Faire des sites est ma passion</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias non quidem excepturi officiis vero? Quos architecto nisi harum nihil dignissimos adipisci dolore aliquam? Possimus, ex temporibus doloremque repudiandae vitae enim.</p>
+                <div class="button">
+                    <button>Télécharger mon CV</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title"><span>Compétences</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic">
+                        Mes compétences
+                    </div>
+                    <p data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ducimus, blanditiis est pariatur alias atque doloribus eligendi sequi dolorum, commodi perspiciatis optio architecto, illum mollitia ratione et? Est, quaerat hic?</p>
+                    <div class="experience">
+                        <div class="num">5</div>
+                        <div class="exp">
+                            Années <br>
+                            d'expérience
+                        </div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topc">HTML</div>
+                        <div class="per">90%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topc">CSS</div>
+                        <div class="per">80%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topc">Javascript</div>
+                        <div class="per">70%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topc">PHP</div>
+                        <div class="per">60%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topc">C</div>
+                        <div class="per">90%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topc">Java</div>
+                        <div class="per">90%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topc">Python</div>
+                        <div class="per">90%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title"><span>Projets</span></div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="topic">Developpement Web</div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt ut libero, illo, itaque dolorem adipisci repellendus, ullam obcaecati nobis sequi provident quidem corporis quia dolores enim aliquid consequuntur sed corrupti.</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="topic">Design</div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt ut libero, illo, itaque dolorem adipisci repellendus, ullam obcaecati nobis sequi provident quidem corporis quia dolores enim aliquid consequuntur sed corrupti.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title">
+                <span>Contactez-moi</span>
+            </div>
+            <div class="text">
+                <div class="topic">Vous avez un projet ?</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <div class="button">
+                    <button>Contactez-moi</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="text">
+            <span>Créer par
+                <a href="https://github.com/MaxenMsf">Alexandre Mione</a>
+                &copy; 2025 Tout droit réservé
+            </span>
+        </div>
+    </footer>
+</body>
+</html>
