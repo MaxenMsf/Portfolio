@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Alexandre Mione</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <nav>
         <div class="nav-container">
-            <div class="logo">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
                 <span>Alexandre MIONE</span>
             </div>
             <div class="links">
-                <div class="link"><a href="#">Menu</a></div>
-                <div class="link"><a href="#">A propos</a></div>
-                <div class="link"><a href="#">Compétences</a></div>
-                <div class="link"><a href="#">Projets</a></div>
-                <div class="link"><a href="#">Contact</a></div>
+                <div class="link" data-aos="fade-up"><a href="#">Menu</a></div>
+                <div class="link" data-aos="fade-up"><a href="#">A propos</a></div>
+                <div class="link" data-aos="fade-up"><a href="#">Compétences</a></div>
+                <div class="link" data-aos="fade-up"><a href="#">Projets</a></div>
+                <div class="link" data-aos="fade-up"><a href="#">Contact</a></div>
             </div>
             <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
         </div>
@@ -34,31 +36,31 @@
     </nav>
     <section>
         <div class="main-container">
-            <div class="image">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
                 <img src="images/alexandre.jpg" alt="Alexandre Mione">
             </div>
             <div class="content">
-                <h1 data-aos="fade-left">
+                <h1 data-aos="fade-left" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="700">
                     Bonjour, je suis
                     <span>Alexandre Mione</span>
                 </h1>
-                <div class="typewriter">
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
                     Je suis un
-                    <span class="typewriter-text"></span>
+                    <span class="typewriter-text">DEVELOPPEUR WEB</span>
                     <label for=""></label>
                 </div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis sunt nostrum, doloribus rem animi laborum, tenetur dolores eius perspiciatis cumque reiciendis itaque et molestias quam eligendi incidunt quasi ea illum.</p>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis sunt nostrum, doloribus rem animi laborum, tenetur dolores eius perspiciatis cumque reiciendis itaque et molestias quam eligendi incidunt quasi ea illum.</p>
                 <div class="social-links">
-                    <a href="https://github.com/MaxenMsf">
+                    <a href="https://github.com/MaxenMsf" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
                         <i class="fa-brands fa-github"></i>
                     </a>
-                    <a href="https://gitlab.univ-artois.fr/alexandre_mione">
+                    <a href="https://gitlab.univ-artois.fr/alexandre_mione" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">
                         <i class="fa-brands fa-gitlab"></i>
-                    <a href="https://www.linkedin.com/in/alexandre-mione-526979180/">
+                    <a href="https://www.linkedin.com/in/alexandre-mione-526979180/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
                 </div>
-                <div class="btn">
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
                     <button>Contactez-moi</button>
                 </div>
             </div>
@@ -66,29 +68,31 @@
     </section>
     <section class="about" id="about">
         <div class="content">
-            <div class="title"><span>A Propos</span></div>
-            <div class="left">
-                <img src="images/alexandre.jpg" alt="Alexandre MIONE">
-            </div>
-            <div class="right">
-                <div class="topic">Faire des sites est ma passion</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias non quidem excepturi officiis vero? Quos architecto nisi harum nihil dignissimos adipisci dolore aliquam? Possimus, ex temporibus doloremque repudiandae vitae enim.</p>
-                <div class="button">
-                    <button>Télécharger mon CV</button>
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>A Propos</span></div>
+            <div class="about-details">
+                <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                    <img src="images/alexandre.jpg" alt="Alexandre MIONE">
+                </div>
+                <div class="right">
+                    <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Faire des sites est ma passion</div>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias non quidem excepturi officiis vero? Quos architecto nisi harum nihil dignissimos adipisci dolore aliquam? Possimus, ex temporibus doloremque repudiandae vitae enim.</p>
+                    <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">
+                        <button>Télécharger mon CV</button>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="skills" id="skills">
         <div class="content">
-            <div class="title"><span>Compétences</span></div>
+            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>Compétences</span></div>
             <div class="skills-details">
                 <div class="text">
-                    <div class="topic">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
                         Mes compétences
                     </div>
-                    <p data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ducimus, blanditiis est pariatur alias atque doloribus eligendi sequi dolorum, commodi perspiciatis optio architecto, illum mollitia ratione et? Est, quaerat hic?</p>
-                    <div class="experience">
+                    <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ducimus, blanditiis est pariatur alias atque doloribus eligendi sequi dolorum, commodi perspiciatis optio architecto, illum mollitia ratione et? Est, quaerat hic?</p>
+                    <div class="experience" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
                         <div class="num">5</div>
                         <div class="exp">
                             Années <br>
@@ -98,32 +102,32 @@
                 </div>
                 <div class="boxes">
                     <div class="box">
-                        <div class="topc">HTML</div>
-                        <div class="per">90%</div>
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">HTML</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">90%</div>
                     </div>
                     <div class="box">
-                        <div class="topc">CSS</div>
-                        <div class="per">80%</div>
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">CSS</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">80%</div>
                     </div>
                     <div class="box">
-                        <div class="topc">Javascript</div>
-                        <div class="per">70%</div>
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">Javascript</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">70%</div>
                     </div>
                     <div class="box">
-                        <div class="topc">PHP</div>
-                        <div class="per">60%</div>
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">PHP</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">60%</div>
                     </div>
                     <div class="box">
-                        <div class="topc">C</div>
-                        <div class="per">90%</div>
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">C</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">90%</div>
                     </div>
                     <div class="box">
-                        <div class="topc">Java</div>
-                        <div class="per">90%</div>
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">Java</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">90%</div>
                     </div>
                     <div class="box">
-                        <div class="topc">Python</div>
-                        <div class="per">90%</div>
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">Python</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">90%</div>
                     </div>
                 </div>
             </div>
@@ -131,16 +135,16 @@
     </section>
     <section class="services" id="services">
         <div class="content">
-            <div class="title"><span>Projets</span></div>
+            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>Projets</span></div>
             <div class="boxes">
-                <div class="box">
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
                     <div class="icon">
                         <i class="fas fa-desktop"></i>
                     </div>
                     <div class="topic">Developpement Web</div>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt ut libero, illo, itaque dolorem adipisci repellendus, ullam obcaecati nobis sequi provident quidem corporis quia dolores enim aliquid consequuntur sed corrupti.</p>
                 </div>
-                <div class="box">
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
                     <div class="icon">
                         <i class="fas fa-paint-brush"></i>
                     </div>
@@ -152,13 +156,13 @@
     </section>
     <section class="contact" id="contact">
         <div class="content">
-            <div class="title">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500">
                 <span>Contactez-moi</span>
             </div>
             <div class="text">
-                <div class="topic">Vous avez un projet ?</div>
+                <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Vous avez un projet ?</div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                <div class="button">
+                <div class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
                     <button>Contactez-moi</button>
                 </div>
             </div>
@@ -172,5 +176,9 @@
             </span>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({offset:0});
+    </script>
 </body>
 </html>
