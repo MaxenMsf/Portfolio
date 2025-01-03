@@ -129,6 +129,11 @@ nav {
   background-color: #5784BA;
 }
 
+.dropdown.show {
+  display: block;
+  transform: translateY(0);
+}
+
 section {
   width: 100%;
   min-height: 90vh;
@@ -146,11 +151,16 @@ section .main-container {
   height: 80vh;
   border-radius: 100%;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-shadow: 0 0 50px #5784BA;
 }
 
 .main-container .image img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .main-container .image:hover {
