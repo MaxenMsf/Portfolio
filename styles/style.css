@@ -408,11 +408,20 @@ section .button button:hover {
 .skills-details .boxes .topic {
   font-size: 20px;
   color: #5784BA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .skills-details .boxes .per {
   font-size: 60px;
   color: #5784BA;
+}
+
+.skills i {
+  font-size: 24px;
+  color: #5784BA;
+  margin-left: 10px;
 }
 
 .services .boxes {
