@@ -493,6 +493,12 @@ section .button button:hover {
   margin: auto;
 }
 
+.contact p {
+  color: white;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
 footer {
   background: #5784BA;
   padding: 15px 0;

@@ -13,7 +13,11 @@ function cancel() {
 
 AOS.init({offset:0});
 
-const texts = ["Etudiant en informatique", "Developpeur web", "Passionné par la technologie"];
+const lang = document.documentElement.lang;
+const texts = lang === 'fr'
+    ? ["Etudiant en informatique", "Développeur web", "Passionné par la technologie"]
+    : ["Computer Science Student", "Web Developer", "Passionate about Technology"];
+
 let speed = 100;
 const textElement = document.querySelector('.typewriter-text');
 let textIndex = 0;
@@ -40,4 +44,6 @@ function eraseText() {
     }
 }
 
-window.onload = typeWriter;
+document.addEventListener('DOMContentLoaded', (event) => {
+    typeWriter();
+});
