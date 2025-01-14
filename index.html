@@ -9,31 +9,33 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-container">
-            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
-                <span>Alexandre MIONE</span>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                    <span>Alexandre MIONE</span>
+                </div>
+                <div class="links">
+                    <div class="link" data-aos="fade-up"><a href="#about">A propos</a></div>
+                    <div class="link" data-aos="fade-up"><a href="#skills">Compétences</a></div>
+                    <div class="link" data-aos="fade-up"><a href="#services">Projets</a></div>
+                    <div class="link" data-aos="fade-up"><a href="#contact">Contact</a></div>
+                    <div class="link" data-aos="fade-up"><a href="index-en.html" class="btn-lang">English</a></div>
+                </div>
+                <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
             </div>
-            <div class="links">
-                <div class="link" data-aos="fade-up"><a href="#about">A propos</a></div>
-                <div class="link" data-aos="fade-up"><a href="#skills">Compétences</a></div>
-                <div class="link" data-aos="fade-up"><a href="#services">Projets</a></div>
-                <div class="link" data-aos="fade-up"><a href="#contact">Contact</a></div>
-                <div class="link" data-aos="fade-up"><a href="index-en.html" class="btn-lang">English</a></div>
+            <div class="dropdown">
+                <div class="links">
+                    <a href="#about">A propos</a>
+                    <a href="#skills">Compétences</a>
+                    <a href="#services">Projets</a>
+                    <a href="#contact">Contact</a>
+                    <a href="index-en.html" class="btn-lang">English</a>
+                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                </div>
             </div>
-            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
-        </div>
-        <div class="dropdown">
-            <div class="links">
-                <a href="#about">A propos</a>
-                <a href="#skills">Compétences</a>
-                <a href="#services">Projets</a>
-                <a href="#contact">Contact</a>
-                <a href="index-en.html" class="btn-lang">English</a>
-                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <section>
         <div class="main-container">
             <div class="image" data-aos="zoom-out" data-aos-duration="3000">
@@ -204,14 +206,14 @@
                         <i class="fas fa-balance-scale"></i>
                     </div>
                     <div class="topic">Juste Prix avec Flask</div>
-                    <p>Une application web en groupe de 3 dont le but était de recréer le jeu téléviser du juste prix. <a href="https://gitlab.univ-artois.fr/lucas_perez/msi-team-malphite-whatsapp" target="_blank">Voir le projet</a></p>
+                    <p>Une application web en groupe de 3 dont le but était de recréer le jeu télévisé du juste prix. <a href="https://gitlab.univ-artois.fr/lucas_perez/msi-team-malphite-whatsapp" target="_blank">Voir le projet</a></p>
                 </div>
                 <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
                     <div class="icon">
                         <i class="fas fa-plane"></i>
                     </div>
                     <div class="topic">Site de voyages avec Laravel</div>
-                    <p>Projet que l'on a fait en groupe de 8 en collaboration avec un autre département de l'IUT. Nous étions 3 informaticiens à s'occuper du backend du site. L'application permet de gérer des voyages, offrant la possibilité de créer des voyages avec plusieurs étapes, d'ajouter des commentaires et de les aimés <a href="https://gitlab.univ-artois.fr/lucas_perez/application-marathon-24" target="_blank">Voir le projet</a></p>
+                    <p>Projet que l'on a fait en groupe de 8 en collaboration avec un autre département de l'IUT. Nous étions 3 informaticiens à s'occuper du backend du site. L'application permet de gérer des voyages, offrant la possibilité de créé des voyages avec plusieurs étapes, d'ajouter des commentaires et de les aimer. <a href="https://gitlab.univ-artois.fr/lucas_perez/application-marathon-24" target="_blank">Voir le projet</a></p>
                 </div>
                 <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
                     <div class="icon">
@@ -226,6 +228,13 @@
                     </div>
                     <div class="topic">Boardgame app en PHP/Laravel</div>
                     <p>Une application qui gère des jeux de société via une API en groupe de 3. Elle offre des fonctionnalités CRUD pour ajouter, modifier, supprimer ou voir un jeu de société. <a href="https://gitlab.univ-artois.fr/lucas_perez/boardgame-app" target="_blank">Voir le projet</a></p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="icon">
+                        <i class="fa-solid fa-blog"></i>
+                    </div>
+                    <div class="topic">Blog de Guide, Astuces et Tuto pour Marvel Strike Force</div>
+                    <p>J'ai créé ce blog from scratch pour fournir des guides, astuces et tutoriels pour le jeu vidéo Marvel Strike Force. <a href="https://maxenmsf.github.io/guide-msf/index.html" target="_blank">Voir le projet</a></p>
                 </div>
             </div>
         </div>

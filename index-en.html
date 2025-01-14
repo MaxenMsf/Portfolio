@@ -9,31 +9,33 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-container">
-            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
-                <span>Alexandre MIONE</span>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                    <span>Alexandre MIONE</span>
+                </div>
+                <div class="links">
+                    <div class="link" data-aos="fade-up"><a href="#about">About</a></div>
+                    <div class="link" data-aos="fade-up"><a href="#skills">Skills</a></div>
+                    <div class="link" data-aos="fade-up"><a href="#services">Projects</a></div>
+                    <div class="link" data-aos="fade-up"><a href="#contact">Contact</a></div>
+                    <div class="link" data-aos="fade-up"><a href="index.html" class="btn-lang">Français</a></div>
+                </div>
+                <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
             </div>
-            <div class="links">
-                <div class="link" data-aos="fade-up"><a href="#about">About</a></div>
-                <div class="link" data-aos="fade-up"><a href="#skills">Skills</a></div>
-                <div class="link" data-aos="fade-up"><a href="#services">Projects</a></div>
-                <div class="link" data-aos="fade-up"><a href="#contact">Contact</a></div>
-                <div class="link" data-aos="fade-up"><a href="index.html" class="btn-lang">Français</a></div>
+            <div class="dropdown">
+                <div class="links">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#services">Projects</a>
+                    <a href="#contact">Contact</a>
+                    <a href="index.html" class="btn-lang">Français</a>
+                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                </div>
             </div>
-            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
-        </div>
-        <div class="dropdown">
-            <div class="links">
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#services">Projects</a>
-                <a href="#contact">Contact</a>
-                <a href="index.html" class="btn-lang">Français</a>
-                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <section>
         <div class="main-container">
             <div class="image" data-aos="zoom-out" data-aos-duration="3000">
@@ -211,7 +213,7 @@
                         <i class="fas fa-plane"></i>
                     </div>
                     <div class="topic">Travel website with Laravel</div>
-                    <p>Project we did in a group of 8 in collaboration with another IUT department. There were 3 of us working on the site's backend. The application manages trips, offering the possibility of creating trips with several stages, adding comments and liking them <a href=“https://gitlab.univ-artois.fr/lucas_perez/application-marathon-24” target=“_blank”>View project</a></p>
+                    <p>Project we did in a group of 8 in collaboration with another IUT department. There were 3 of us working on the site's backend. The application manages trips, offering the possibility of creating trips with several stages, adding comments and liking them. <a href=“https://gitlab.univ-artois.fr/lucas_perez/application-marathon-24” target=“_blank”>View project</a></p>
                 </div>
                 <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
                     <div class="icon">
@@ -226,6 +228,13 @@
                     </div>
                     <div class="topic">Boardgame app in PHP/Laravel</div>
                     <p>An application that manages board games via an API in groups of 3. It offers CRUD functionality for adding, modifying, deleting or viewing a board game. <a href=“https://gitlab.univ-artois.fr/lucas_perez/boardgame-app” target=“_blank”>View project</a></p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="icon">
+                        <i class="fa-solid fa-blog"></i>
+                    </div>
+                    <div class="topic">Blog of Guides, Tips, and Tutorials for Marvel Strike Force in HTML/CSS/Javascript</div>
+                    <p>I created this blog from scratch to provide guides, tips, and tutorials for the video game Marvel Strike Force. <a href="https://maxenmsf.github.io/guide-msf/index.html" target="_blank">View the project</a></p>
                 </div>
             </div>
         </div>
